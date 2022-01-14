@@ -1,6 +1,7 @@
 ul {
   list-style-type: none;
   margin: 0;
+
   padding: 0;
   overflow: hidden;
     border color: red
@@ -8,24 +9,34 @@ ul {
 
 li {
   float: left;
+  width: 100%
+
+
+
+
 }
 
 li a {
   display: block;
   padding: 8px;
-  background-color: white;
-  text-decoration-color: red;
+  background-color: darkblue;
+  text-decoration-color: orange;
+  color: gold;
 
 
 }
+
+
+li :hover {
+  background-color: red;
+}
+
+
 body {
-background-color:  darkorange
+background-color:  darkorange;
+text-align: center;
 }
 
 h1 {
   text-align: center;
-}
-
-img {
-  text-align: left;
 }
